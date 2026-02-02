@@ -1,0 +1,456 @@
+/* Basic reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #2b2b2b;
+  color: #e8e8e8;
+  line-height: 1.6;
+}
+
+/* --- Typography --- */
+h1, h2, h3 {
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  color: #ffd700;
+}
+
+/* Header & Navigation */
+header {
+  background: #151515;
+  padding: 0.5em 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #333;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-container .logo {
+  width: 100px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.nav-container .logo:hover {
+  transform: scale(1.15);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffd700;
+  font-weight: 600;
+  padding: 0.5em 0.8em;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #ffd700;
+  color: #151515;
+  text-decoration: none;
+}
+
+/* Main content styling */
+main {
+  padding: 2em;
+  max-width: 1200px;
+  margin: 2em auto;
+  background: #1a1a1a;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+section {
+  margin-bottom: 2.5em;
+}
+
+form {
+  margin-top: 1.2em;
+}
+
+label {
+  display: block;
+  margin: 0.8em 0 0.4em;
+  font-weight: 500;
+  color: #ffd700;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1.2em;
+  background: #333;
+  border: 1px solid #444;
+  color: #e8e8e8;
+  border-radius: 6px;
+  font-size: 1em;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+select:focus {
+  outline: none;
+  border-color: #ffd700;
+  box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.2);
+}
+
+button {
+  background: #151515;
+  color: #ffffff;
+  border: none;
+  padding: 1em 1.5em;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 1em;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #333;
+  transform: translateY(-1px);
+}
+
+/* Message styling */
+.message {
+  margin-top: 1em;
+  padding: 0.8em 1em;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.message.success {
+  color: #98ff98;
+  background-color: rgba(152, 255, 152, 0.1);
+  border: 1px solid #98ff98;
+}
+
+.message.error {
+  color: #ff6b6b;
+  background-color: rgba(22, 21, 21, 0.63);
+  border: 1px solid #bd2525;
+}
+
+/* --- Card Tiles --- */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em;
+  margin-top: 2em;
+  padding: 0 1em;
+}
+
+.card {
+  background: #222;
+  border: 1px solid #333;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+  border-color: #ffd700;
+}
+
+.card-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card h3 {
+  padding: 0.5em;
+  text-align: center;
+  color: #ffd700;
+}
+
+.card p {
+  padding: 0 1.2em;
+  margin-bottom: 1.5em;
+  color: #e8e8e8;
+  line-height: 1.4;
+}
+
+.card-button {
+  display: block;
+  background: #ffd700;
+  color: #151515;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.card-button:hover {
+  background: #ffed4a;
+}
+
+/* Cart Section Styling */
+#cart-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+#cart-details li {
+  border-bottom: 1px solid #333;
+  padding: 0.5em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#cart-details li button {
+  background-color: #dc3545;
+  color: #ffffff;
+  border: none;
+  padding: 0.3em 0.6em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#cart-details li button:hover {
+  background-color: #c82333;
+}
+
+#cart-total {
+  font-weight: bold;
+  margin-top: 1em;
+  color: #ffd700;
+}
+
+#checkout-button {
+  background-color: #28a745;
+  color: #ffffff;
+  border: none;
+  padding: 0.7em 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 1em;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+#checkout-button:hover {
+  background-color: #218838;
+  transform: translateY(-1px);
+}
+
+#checkout-button:disabled {
+  background-color: #444;
+  color: #666;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-container {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 1em;
+  }
+
+  nav ul li {
+      margin: 0.5em 0;
+  }
+  
+  .card-container {
+      grid-template-columns: 1fr;
+      gap: 1.5em;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .card-container {
+      padding: 0 2em;
+  }
+}
+
+/* Add these styles to your styles.css file */
+
+/* Dinosaur Alert System Styles */
+#dino-alert-section {
+  margin-top: 2em;
+  padding: 1em;
+  background: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+#dino-alerts-container {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.dino-alert {
+  margin: 1em 0;
+  padding: 1em;
+  border-radius: 8px;
+  border-left: 4px solid;
+  transition: all 0.3s ease;
+}
+
+.dino-alert:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.dino-alert.info {
+  background: rgba(25, 118, 210, 0.1);
+  border-left-color: #1976d2;
+}
+
+.dino-alert.warning {
+  background: rgba(255, 152, 0, 0.1);
+  border-left-color: #ff9800;
+}
+
+.dino-alert.danger {
+  background: rgba(211, 47, 47, 0.1);
+  border-left-color: #d32f2f;
+}
+
+.dino-alert h4 {
+  margin-top: 0;
+  color: #ffd700;
+}
+
+.special-badge {
+  display: inline-block;
+  background: #ffd700;
+  color: #151515;
+  padding: 0.3em 0.8em;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.8em;
+  margin-top: 0.5em;
+}
+
+/* Interactive Park Map Styles */
+#park-map-section {
+  margin-top: 2em;
+  padding: 1em;
+  background: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.map-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-top: 1em;
+}
+
+#park-map-container {
+  position: relative;
+  flex: 1;
+  min-width: 300px;
+}
+
+#park-map-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #333;
+}
+
+.map-highlight {
+  position: absolute;
+  border: 3px solid #ffd700;
+  background: rgba(255, 215, 0, 0.2);
+  pointer-events: none;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+#map-info {
+  flex: 1;
+  min-width: 300px;
+  padding: 1em;
+  background: #222;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+#map-info h3 {
+  margin-top: 0;
+}
+
+.zone-dinosaurs {
+  margin-top: 1em;
+  padding: 1em;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+.zone-dinosaurs ul {
+  margin: 0.5em 0 0 0;
+  padding-left: 1.5em;
+}
+
+/* Responsive adjustments for map */
+@media (max-width: 768px) {
+  .map-container {
+      flex-direction: column;
+  }
+  
+  #map-info, #park-map-container {
+      width: 100%;
+  }
+}
+
+/* Animation for alerts */
+@keyframes alertFadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.alert-item {
+  animation: alertFadeIn 0.5s ease-out;
+}
