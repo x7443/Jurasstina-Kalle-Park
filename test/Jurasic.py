@@ -1,10 +1,12 @@
 import asyncio
 import re
+from time import sleep
+
 from playwright.async_api import Playwright, async_playwright, expect
 
 
 async def run(playwright: Playwright) -> None:
-    browser = await playwright.chromium.launch(headless=False)
+    browser = await playwright.chromium.launch(headless=False, slow_mo=500)
     context = await browser.new_context()
     page = await context.new_page()
     await page.goto("http://127.0.0.1:8000/jurap.html")
@@ -23,15 +25,17 @@ async def run(playwright: Playwright) -> None:
     await page.get_by_role("textbox", name="Password:").click()
     await page.get_by_role("textbox", name="Password:").fill("cacaconculo")
     await page.locator('//*[@id="login-form"]/button').click()
+
     await expect(page.get_by_text("Welcome to Jurasstina-Kalle Park!")).to_be_visible()
     await page.get_by_role("link", name="Buy Tickets", exact=True).click()
     await page.get_by_role("spinbutton", name="Quantity:").click()
     await page.get_by_role("spinbutton", name="Quantity:").fill("99999999999999999999999999999999999999999999999")
-    page.once("dialog", lambda dialog: dialog.dismiss())
+    #page.once("dialog", lambda dialog: dialog.dismiss())
     await page.get_by_role("button", name="Add to Cart").click()
     await page.get_by_role("link", name="Cart").click()
-    page.once("dialog", lambda dialog: dialog.dismiss())
+    #page.once("dialog", lambda dialog: dialog.dismiss())
     await page.get_by_role("button", name="Proceed to Checkout").click()
+    sleep(4)
 
     # ---------------------
     await context.close()
