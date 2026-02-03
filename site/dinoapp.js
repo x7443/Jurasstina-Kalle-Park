@@ -166,10 +166,10 @@ function initializeMap() {
     const mapHTML = `
         <img src="assets/ParkMap.png" alt="Jurasstina-Kalle Park Map" id="park-map-image" usemap="#park-map">
         <map name="park-map">
-            ${mapZones.map(zone =>
-        `<area shape="${zone.shape}" coords="${zone.coords}" alt="${zone.name}" 
+            ${mapZones.map(zone => 
+                `<area shape="${zone.shape}" coords="${zone.coords}" alt="${zone.name}" 
                     data-zone="${zone.id}" href="#" title="${zone.name}">`
-    ).join('')}
+            ).join('')}
         </map>
     `;
     
