@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jura-Stina-Kalle Park</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="nav-container">
+        <img src="assets/jskp_logo.png" alt="Jura-Stina-Kalle Park Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#" data-section="home-section">Home</a></li>
+                <li id="register-nav"><a href="#" data-section="register-section">Register</a></li>
+                <li id="login-nav"><a href="#" data-section="login-section">Login</a></li>
+                <li id="tickets-nav"><a href="#" data-section="tickets-section">Buy Tickets</a></li>
+                <li id="safari-nav"><a href="#" data-section="safari-section">Book Safaris</a></li>
+                <li><a href="#" data-section="dino-alert-section">Dino Alerts</a></li>
+                <li><a href="#" data-section="park-map-section">Park Map</a></li>
+                <li id="cart-nav" style="display:none;"><a href="#" data-section="cart-section">Cart</a></li>
+                <li id="logout-nav" style="display:none;"><a href="#" id="logout-link">Logout</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <!-- Home Section -->
+    <article>
+        <section id="home-section">
+            <h2>Welcome to Jurasstina-Kalle Park!</h2>
+            <p>We are excited to announce that our park is now open to the public! Enjoy thrilling dinosaur
+                encounters, spectacular rides, and immersive experiences as you explore our prehistoric world.</p>
+            <h2>Toilets back and fully operational</h2>
+            <p>We are happy to share that we are finally done cleaning up after the... unfortunate T-Rex incident
+                involving one of our union-friendly workers. His family will miss him.</p>
+            <!-- Card Tiles -->
+            <div class="card-container">
+                <div class="card">
+                    <img src="assets/park_image.png" alt="Park Image" class="card-image">
+                    <h3>Explore the Park</h3>
+                    <p>Discover amazing dinosaurs, thrilling rides, and unforgettable adventures for the whole family!
+                    </p>
+                    <a href="#" data-section="tickets-section" class="card-button">Buy Tickets Now</a>
+                </div>
+
+                <div class="card">
+                    <img src="assets/vip_image.png" alt="VIP Package" class="card-image">
+                    <h3>Unlock VIP Perks</h3>
+                    <p>Get exclusive access, priority seating, and premium experiences with our VIP package.</p>
+                    <a href="#" data-section="tickets-section" class="card-button">Learn More</a>
+                </div>
+                <div class="card">
+                    <img src="assets/safari_image.png" alt="Safari Tours" class="card-image">
+                    <h3>Embark on a Safari Adventure</h3>
+                    <p>Experience up-close encounters with magnificent dinosaurs on our guided safari tours.</p>
+                    <a href="#" data-section="safari-section" class="card-button">Book Your Safari</a>
+                </div>
+                <div class="card">
+                    <img src="assets/dining_image.png" alt="Dining Experience" class="card-image">
+                    <h3>Dine with Dinosaurs</h3>
+                    <p>The restaurant is currently closed due to a Raptor infestation in the kitchen area.</p>
+                    <a href="#" data-section="home-section" class="card-button">Coming Soon!</a>
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <!-- Registration Section -->
+    <article>
+        <section id="register-section" style="display:none;">
+            <h2>Register</h2>
+            <form id="register-form">
+                <label for="reg-username">Username:</label>
+                <input type="text" id="reg-username" required>
+                <label for="reg-password">Password:</label>
+                <input type="password" id="reg-password" required>
+                <button type="submit">Register</button>
+                <p class="message" id="register-message"></p>
+            </form>
+        </section>
+    </article>
+
+    <!-- Login Section -->
+    <article>
+        <section id="login-section" style="display:none;">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="login-username">Username:</label>
+                <input type="text" id="login-username" required>
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" required>
+                <button type="submit">Login</button>
+                <p class="message" id="login-message"></p>
+            </form>
+        </section>
+    </article>
+
+    <!-- Tickets Purchase Section -->
+    <article>
+        <section id="tickets-section" style="display:none;">
+            <h2>Buy Tickets</h2>
+            <form id="ticket-form">
+                <label for="ticket-type">Ticket Type:</label>
+                <select id="ticket-type">
+                    <option value="Adult">Adult</option>
+                    <option value="Child">Child</option>
+                    <option value="Senior">Senior</option>
+                </select>
+                <label for="ticket-category">Ticket Category:</label>
+                <select id="ticket-category">
+                    <option value="Regular">Regular Ticket</option>
+                    <option value="VIP">VIP Ticket</option>
+                </select>
+                <label for="ticket-quantity">Quantity:</label>
+                <input type="number" id="ticket-quantity" value="1" min="1">
+                <button type="submit">Add to Cart</button>
+                <p id="ticket-price-display"></p>
+                <p class="message" id="ticket-message"></p>
+            </form>
+        </section>
+    </article>
+
+    <!-- Safari Booking Section -->
+    <article>
+        <section id="safari-section" style="display:none;">
+            <h2>Book Safaris</h2>
+            <form id="safari-form">
+                <label for="safari-date">Select Safari Date:</label>
+                <input type="date" id="safari-date" required>
+                <label for="safari-type">Select Safari Type:</label>
+                <select id="safari-type">
+                    <!-- Options will be populated dynamically -->
+                </select>
+                <button type="submit">Add to Cart</button>
+                <p class="message" id="safari-message"></p>
+            </form>
+        </section>
+    </article>
+
+    <!-- Cart Section -->
+    <article>
+        <section id="cart-section" style="display:none;">
+            <h2>Shopping Cart</h2>
+            <div id="cart-details">
+                <!-- Cart items will be displayed here -->
+            </div>
+            <p id="cart-total">Total: $0</p>
+            <button id="checkout-button" disabled>Proceed to Checkout</button>
+        </section>
+    </article>
+
+    <!-- Dinosaur Alert System Section -->
+    <article>
+        <section id="dino-alert-section" style="display:none;">
+            <h2>Live Dinosaur Alerts</h2>
+            <p>Stay informed about dinosaur activities and locations throughout the park.</p>
+            <div id="dino-alerts-container">
+                <!-- Alert items will be dynamically added here -->
+            </div>
+        </section>
+    </article>
+
+    <!-- Interactive Park Map Section -->
+    <article>
+        <section id="park-map-section" style="display:none;">
+            <h2>Interactive Park Map</h2>
+            <p>Click on different areas to learn more about our attractions and dinosaur locations.</p>
+            <div class="map-container">
+                <div id="park-map-container">
+                    <!-- Map will be loaded here dynamically -->
+                </div>
+                <div id="map-info">
+                    <h3>Select an area on the map</h3>
+                    <p>Click on any zone to view details and current dinosaur information.</p>
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Jurasstina-Kalle Park LLC</p>
+    </footer>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
