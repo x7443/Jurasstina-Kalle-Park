@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.2 on win32)" generated="2026-02-03T11:39:33.708950" rpa="false" schemaversion="5">
+<suite id="s1" name="Jurasstina-Kalle-Park" source="C:\WebTesting\Jurasstina-Kalle-Park">
+<suite id="s1-s1" name="Test" source="C:\WebTesting\Jurasstina-Kalle-Park\test">
+<suite id="s1-s1-s1" name="Jurasic" source="C:\WebTesting\Jurasstina-Kalle-Park\test\Jurasic.robot">
+<test id="s1-s1-s1-t1" name="Webbtestning av Jurasstina-Kalle Park" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-03T11:39:34.463480" level="INFO">Opening browser 'chrome' to base url 'file:///C:/WebTesting/Jurasstina-Kalle-Park/site/jurap.html'.</msg>
+<arg>file:///C:/WebTesting/Jurasstina-Kalle-Park/site/jurap.html</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-03T11:39:34.462843" elapsed="1.990647"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-03T11:39:41.458650" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-03T11:39:36.455575" elapsed="5.003384"/>
+</kw>
+<status status="PASS" start="2026-02-03T11:39:34.460124" elapsed="7.000106"/>
+</test>
+<doc>Tests para Jurasstina-Kalle Park</doc>
+<status status="PASS" start="2026-02-03T11:39:33.832634" elapsed="7.629913"/>
+</suite>
+<status status="PASS" start="2026-02-03T11:39:33.828015" elapsed="7.637505"/>
+</suite>
+<status status="PASS" start="2026-02-03T11:39:33.713849" elapsed="7.754176"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Jurasstina-Kalle-Park" id="s1" pass="1" fail="0" skip="0">Jurasstina-Kalle-Park</stat>
+<stat name="Test" id="s1-s1" pass="1" fail="0" skip="0">Jurasstina-Kalle-Park.Test</stat>
+<stat name="Jurasic" id="s1-s1-s1" pass="1" fail="0" skip="0">Jurasstina-Kalle-Park.Test.Jurasic</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
