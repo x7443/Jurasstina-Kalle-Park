@@ -6,5 +6,7 @@ Library    SeleniumLibrary
 
 *** Test Cases ***
 Webbtestning av Jurasstina-Kalle Park
-  Open Browser    http://127.0.0.1:8000/jurap.html      chrome
-  Sleep    5s
+
+
+
+
