@@ -5,15 +5,55 @@ from playwright.async_api import Playwright, async_playwright, expect
 
 async def run(playwright: Playwright) -> None:
 
-    browser = await playwright.chromium.launch(headless=False, )
+    browser = await playwright.chromium.launch(headless=True)
     context = await browser.new_context()
     page = await context.new_page()
+
+
+    #Öppnar hemsidan
+    await page.goto("http://127.0.0.1:8000/jurap.html")
+    #Klickar på "Learn more" på "Unlock VIP perks"
+    await page.locator('//*[@id="home-section"]/div/div[2]/a').click()
+    #Klickar på "Quantity" textboxen och fyller i massa nior och sedan trycker "Add to cart" knappen
+    await page.get_by_role("spinbutton", name="Quantity:").click()
+    await page.get_by_role("spinbutton", name="Quantity:").fill("99999999999999999999999999999999999999999999999")
+    await page.get_by_role("button", name="Add to Cart").click()
+
+    #En dialog poppar upp som säger att man måste vara inloggad för att kunna köpa biljetter
+
+    #Registrerar användaren med de angivna uppgifterna
     username = "CuloConCaca"
     password = "CacaConCulo"
 
-    await page.goto("http://127.0.0.1:8000/jurap.html")
-    await page.get_by_role("link", name="Learn More").click()
-    sleep(4)
+    await page.get_by_role("link", name="Register").click()
+    await page.get_by_role("textbox", name="Username:").click()
+    await page.get_by_role("textbox", name="Username:").fill(username)
+    await page.get_by_role("textbox", name="Username:").press("Tab")
+    await page.get_by_role("textbox", name="Password:").fill(password)
+    await page.get_by_role("button", name="Register").click()
+    #Efter registrering blir man automatiskt omdirigerad till inloggningssidan
+
+    #Ser till att knappen "Register" är gömd, detta för att säkerhetsställa att sidan har ändrats
+    await expect(page.get_by_role("button", name="Register")).to_be_hidden()
+
+    #Loggar in med samma uppgifter som registrerades
+    await page.get_by_role("textbox", name="Username:").click()
+    await page.get_by_role("textbox", name="Username:").fill(username)
+    await page.get_by_role("textbox", name="Password:").click()
+    await page.get_by_role("textbox", name="Password:").fill(password)
+    #Klickar på "Login" knappen (det finns mer än en knapp med texten "Login", därmed används XPath)
+    await page.locator('//*[@id="login-form"]/button').click()
+
+    #Klickar på "Quantity" textboxen, fyller i massa nior och sedan trycker "Add to cart" knappen
+    await page.locator('//*[@id="home-section"]/div/div[2]/a').click()
+    await page.get_by_role("spinbutton", name="Quantity:").click()
+    await page.get_by_role("spinbutton", name="Quantity:").fill("99999999999999999999999999999999999999999999999")
+    await page.get_by_role("button", name="Add to Cart").click()
+    #Den här gången är användaren inloggad och därmed går det att lägga till i varukorgen
+
+    #Går in på varukorgen och sedan trycker på "Proceed to Checkout" knappen och därmed slutför köpet
+    await page.get_by_role("link", name="Cart").click()
+    await page.get_by_role("button", name="Proceed to Checkout").click()
 
     # ---------------------
     await context.close()
