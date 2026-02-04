@@ -16,7 +16,6 @@ async def run(playwright: Playwright) -> None:
     password = "CacaConCulo"
 
     await page.goto("http://127.0.0.1:8000/jurap.html")
-    context.on("dialog",  lambda dialog: dialog.accept())
     await page.get_by_role("link", name="Login").click()
     await page.get_by_role("link", name="Register").click()
     await page.get_by_role("textbox", name="Username:").click()
