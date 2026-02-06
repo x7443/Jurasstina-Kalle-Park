@@ -12,8 +12,12 @@ async def run(playwright: Playwright) -> None:
 
     #Öppnar hemsidan
     await page.goto("http://127.0.0.1:8000/jurap.html")
+
     #Klickar på "Learn more" på "Unlock VIP perks"
     await page.locator('//*[@id="home-section"]/div/div[2]/a').click()
+
+    #Användaren tas till "Buy Tickets" sidan
+
     #Klickar på "Quantity" textboxen och fyller i massa nior och sedan trycker "Add to cart" knappen
     await page.get_by_role("spinbutton", name="Quantity:").click()
     await page.get_by_role("spinbutton", name="Quantity:").fill("99999999999999999999999999999999999999999999999")
@@ -21,7 +25,10 @@ async def run(playwright: Playwright) -> None:
 
     #En dialog poppar upp som säger att man måste vara inloggad för att kunna köpa biljetter
 
-    #Registrerar användaren med de angivna uppgifterna
+    #Användaren tas till "Login" sidan automatiskt när de klickar på "OK" knappen i dialogen
+
+    #Användaren klickar på "Register" knappen längst upp i sidan
+    #Tas vidare till "Register" sidan och registrerar sig (med de angivna uppgifterna)
     username = "CuloConCaca"
     password = "CacaConCulo"
 
@@ -31,10 +38,14 @@ async def run(playwright: Playwright) -> None:
     await page.get_by_role("textbox", name="Username:").press("Tab")
     await page.get_by_role("textbox", name="Password:").fill(password)
     await page.get_by_role("button", name="Register").click()
+    await expect(page.get_by_text("Registration successful! Redirecting to login")).to_be_visible()
+
     #Efter registrering blir man automatiskt omdirigerad till inloggningssidan
 
-    #Ser till att knappen "Register" är gömd, detta för att säkerhetsställa att sidan har ändrats
+    #Ser till att knappen "Register" är gömd och "Login" rubriken synlig
+    #Detta för att säkerhetsställa att sidan har ändrats
     await expect(page.get_by_role("button", name="Register")).to_be_hidden()
+    await expect(page.get_by_role("heading", name="Login")).to_be_visible()
 
     #Loggar in med samma uppgifter som registrerades
     await page.get_by_role("textbox", name="Username:").click()
@@ -54,6 +65,10 @@ async def run(playwright: Playwright) -> None:
     #Går in på varukorgen och sedan trycker på "Proceed to Checkout" knappen och därmed slutför köpet
     await page.get_by_role("link", name="Cart").click()
     await page.get_by_role("button", name="Proceed to Checkout").click()
+
+    #Ser till att användaren tas till huvudsidan genom att se till att rubriken
+    #"Welcome to Jurasstina-Kalle Park!" är synlig
+    await expect(page.get_by_role("heading", name="Welcome to Jurasstina-Kalle Park!")).to_be_visible()
 
     # ---------------------
     await context.close()
