@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.13.3 on win32)" generated="2026-02-03T10:25:46.280152" rpa="false" schemaversion="5">
+<suite id="s1" name="Jurasic" source="C:\WebTesting\Jurasstina-Kalle-Park\test\Jurasic.robot">
+<test id="s1-t1" name="Webbtestning av Jurasstina-Kalle Park" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-03T10:25:47.189004" level="INFO">Opening browser 'chrome' to base url 'http://127.0.0.1:8000/jurap.html'.</msg>
+<arg>http://127.0.0.1:8000/jurap.html</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-03T10:25:47.187733" elapsed="5.163424"/>
+</kw>
+<status status="PASS" start="2026-02-03T10:25:47.184524" elapsed="5.167706"/>
+</test>
+<doc>Tests para Jurasstina-Kalle Park</doc>
+<status status="PASS" start="2026-02-03T10:25:46.323970" elapsed="6.031370"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Jurasic" id="s1" pass="1" fail="0" skip="0">Jurasic</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
