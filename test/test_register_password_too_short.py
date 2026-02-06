@@ -13,6 +13,7 @@ def run(playwright: Playwright) -> None:
     page.get_by_role("textbox", name="Password:").click()
     page.get_by_role("textbox", name="Password:").fill("Panta")
     page.get_by_role("button", name="Register").click()
+    expect(page.get_by_text("Password must be at least 8 characters long.")).to_be_visible()
 
     # ---------------------
     context.close()
