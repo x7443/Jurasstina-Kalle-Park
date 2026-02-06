@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a538433e-4edf-49ea-b99b-638adac9889e" name="Changes" comment="GWT 2 påbörjad">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Jurasic.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test/Jurasic.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/LearnMore.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/LearnMore.py" afterDir="false" />
     </list>
     <list id="63eebbc9-1c7f-4095-a8fc-cb68c0d99761" name="Changes by Javier" comment="" />
@@ -21,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Javi" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,29 +49,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.BuyTickets.executor": "Run",
-    "Python.Jurasic.executor": "Run",
-    "Python.LearnMore.executor": "Run",
-    "Python.__init__.executor": "Run",
-    "Python.main.executor": "Run",
-    "Robot.Webbtestning av Jurasstina-Kalle Park (1).executor": "Run",
-    "Robot.Webbtestning av Jurasstina-Kalle Park.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "git-widget-placeholder": "Diego",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/diego/PycharmProjects/Jurasstina-Kalle-Park",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.BuyTickets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Jurasic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LearnMore.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Robot.Webbtestning av Jurasstina-Kalle Park (1).executor&quot;: &quot;Run&quot;,
+    &quot;Robot.Webbtestning av Jurasstina-Kalle Park.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Diego&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/diego/PycharmProjects/Jurasstina-Kalle-Park&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\diego\PycharmProjects\Jurasstina-Kalle-Park\test" />
@@ -310,7 +310,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$BuyTickets.coverage" NAME="BuyTickets Coverage Results" MODIFIED="1770214983932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$LearnMore.coverage" NAME="LearnMore Coverage Results" MODIFIED="1770218554287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$LearnMore.coverage" NAME="LearnMore Coverage Results" MODIFIED="1770377873467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Webbtestning_av_Jurasstina_Kalle_Park__1_.coverage" NAME="Webbtestning av Jurasstina-Kalle Park (1) Coverage Results" MODIFIED="1770114390415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$main.coverage" NAME="main Coverage Results" MODIFIED="1770117452640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Webbtestning_av_Jurasstina_Kalle_Park.coverage" NAME="Webbtestning av Jurasstina-Kalle Park Coverage Results" MODIFIED="1770039934036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
