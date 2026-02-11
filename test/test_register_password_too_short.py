@@ -1,7 +1,11 @@
 import re
+
+import pytest
 from playwright.sync_api import Playwright, sync_playwright, expect
 
+#Test ID: TC-SAF-02.2-NEG
 
+@pytest.mark.VG_Javi
 def run(playwright: Playwright) -> None:
     browser = playwright.chromium.launch(headless=False)
     context = browser.new_context()
