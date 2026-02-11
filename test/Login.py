@@ -44,6 +44,9 @@ async def run(playwright: Playwright) -> None:
     #Klickar på "Login" knappen (det finns mer än en knapp med texten "Login", därmed används XPath)
     await page.locator('//*[@id="login-form"]/button').click()
 
+    #Efter inlogg omdirigeras användaren till huvudsidan
+
+    #Kollar efter rubriken "Welcome to Jurasstina-Kalle Park!" (för att säkerhetsställa att man är på huvudsidan)
     await expect(page.get_by_role("heading", name="Welcome to Jurasstina-Kalle Park!")).to_be_visible()
 
 
