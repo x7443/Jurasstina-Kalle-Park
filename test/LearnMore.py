@@ -55,8 +55,9 @@ async def run(playwright: Playwright) -> None:
     #Klickar på "Login" knappen (det finns mer än en knapp med texten "Login", därmed används XPath)
     await page.locator('//*[@id="login-form"]/button').click()
 
-    #Klickar på "Quantity" textboxen, fyller i massa nior och sedan trycker "Add to cart" knappen
+    #Klickar "Buy Tickets" fliken
     await page.locator('//*[@id="home-section"]/div/div[2]/a').click()
+    # Klickar på "Quantity" textboxen, fyller i massa nior och sedan trycker "Add to cart" knappen
     await page.get_by_role("spinbutton", name="Quantity:").click()
     await page.get_by_role("spinbutton", name="Quantity:").fill("99999999999999999999999999999999999999999999999")
     await page.get_by_role("button", name="Add to Cart").click()
