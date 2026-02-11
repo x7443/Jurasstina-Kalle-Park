@@ -70,6 +70,7 @@ async def run(playwright: Playwright) -> None:
     #"Welcome to Jurasstina-Kalle Park!" är synlig
     await expect(page.get_by_role("heading", name="Welcome to Jurasstina-Kalle Park!")).to_be_visible()
 
+
     # ---------------------
     await context.close()
     await browser.close()
