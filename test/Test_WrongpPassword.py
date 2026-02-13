@@ -1,8 +1,9 @@
 import re
-
+import pytest
 from playwright.sync_api import Playwright, sync_playwright, expect
 
-
+#Test-ID: TC-REG-08-NEG
+@pytest.mark.VG_Almedin
 def run(playwright: Playwright) -> None:
     browser = playwright.chromium.launch(headless=False, slow_mo=500)
     context = browser.new_context()
