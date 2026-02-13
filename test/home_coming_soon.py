@@ -1,13 +1,14 @@
 import re
 from playwright.sync_api import Playwright, sync_playwright, expect
-
+#Test-ID: TC-COM-03-POS
 
 def run(playwright: Playwright) -> None:
     browser = playwright.chromium.launch(headless=False)
     context = browser.new_context()
     page = context.new_page()
-    page.goto("http://127.0.0.1:8000/jurap.html" )
+    page.goto("http://127.0.0.1:8000/jurap.html")
     page.get_by_role("link", name="Coming Soon!").click()
+
 
     # ---------------------
     context.close()
@@ -16,4 +17,3 @@ def run(playwright: Playwright) -> None:
 
 with sync_playwright() as playwright:
     run(playwright)
-
