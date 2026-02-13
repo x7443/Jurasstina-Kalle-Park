@@ -61,7 +61,7 @@ def run(playwright: Playwright) -> None:
     # Användaren trycker på "Proceed to checkout" för att simulera ett genomfört köp
     page.get_by_role("button", name="Proceed to Checkout").click()
 
-    # Använder trycker på "cart" igen för att kontrollera att köpet gått igenom och inget är kvar i kundvarnen
+    # Använder trycker på "cart" igen för att kontrollera att köpet gått igenom och inget är kvar i kundvagnen
     page.get_by_role("link", name="Cart").click()
 
     # ---------------------
