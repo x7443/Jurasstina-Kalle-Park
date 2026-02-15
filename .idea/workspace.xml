@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a538433e-4edf-49ea-b99b-638adac9889e" name="Changes" comment="Javiero el justiciero">
+    <list default="true" id="a538433e-4edf-49ea-b99b-638adac9889e" name="Changes" comment="Test komentarier">
+      <change beforePath="$PROJECT_DIR$/.idea/Jurasstina-Kalle-Park.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Jurasstina-Kalle-Park.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Jurasic.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/Jurasic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Jurasic.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test/Jurasic.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_book_safari_fell_biljet.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_book_safari_fell_biljet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_home_coming_soon.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_home_coming_soon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_registrer_kort_password.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_registrer_kort_password.py" afterDir="false" />
     </list>
     <list id="63eebbc9-1c7f-4095-a8fc-cb68c0d99761" name="Changes by Javier" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -28,8 +37,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/x7443/Jurasstina-Kalle-Park.git&quot;,
-    &quot;accountId&quot;: &quot;10012004-c17f-421d-a617-aea8b8c0b8e5&quot;
+    &quot;url&quot;: &quot;https://github.com/x7443/Jurasstina-Kalle-Park&quot;,
+    &quot;accountId&quot;: &quot;eb9828f5-a9c3-4ac0-ac37-f171140ad0e9&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -43,25 +52,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.main.executor": "Run",
-    "Robot.Webbtestning av Jurasstina-Kalle Park (1).executor": "Run",
-    "Robot.Webbtestning av Jurasstina-Kalle Park.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "git-widget-placeholder": "Javi",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/diego/PycharmProjects/Jurasstina-Kalle-Park",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test.test_Book_Safaris.test_reserva_safari.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.test_registrer_kort_password.test_tc_saf_022_neg_short_password.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Book_Safaris.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_book_safari_fell_biljet.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_home_coming_soon.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_register_password_too_short.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_registrer_kort_password.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Jurasic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Kolla_book_safari_fell_biljet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.home_coming_soon.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kolla_Book_Safaris.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kopa_regular_biljet_vadagar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.registrer_kort_password.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_Book_Safaris.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_book_safari_fell_biljet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_home_coming_soon.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_kopa_regular_biljet_vadagar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_register_password_too_short.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_registrer_kort_password.executor&quot;: &quot;Run&quot;,
+    &quot;Robot.Webbtestning av Jurasstina-Kalle Park (1).executor&quot;: &quot;Run&quot;,
+    &quot;Robot.Webbtestning av Jurasstina-Kalle Park.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Javi&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/diego/PycharmProjects/Jurasstina-Kalle-Park&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\diego\PycharmProjects\Jurasstina-Kalle-Park\test" />
@@ -69,8 +99,8 @@
       <recent name="C:\Users\diego\PycharmProjects\Jurasstina-Kalle-Park" />
     </key>
   </component>
-  <component name="RunManager" selected="Robot.Webbtestning av Jurasstina-Kalle Park (1)">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="test_Book_Safaris" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Jurasstina-Kalle-Park" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,13 +109,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="C:\WebTesting\Jurasstina-Kalle-Park\test\test_Book_Safaris.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Webbtestning av Jurasstina-Kalle Park (1)" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+    <configuration name="test_book_safari_fell_biljet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Jurasstina-Kalle-Park" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,60 +132,94 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/Scripts/python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value="--test &quot;Jurasstina-Kalle-Park.test.Jurasic.Webbtestning av Jurasstina-Kalle Park&quot; ." />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_book_safari_fell_biljet.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Webbtestning av Jurasstina-Kalle Park" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+    <configuration name="Python tests for test.test_Book_Safaris.test_reserva_safari" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Jurasstina-Kalle-Park" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/AppData/Local/Python/bin/python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value="--test &quot;Jurasstina-Kalle-Park.Jurasic.Webbtestning av Jurasstina-Kalle Park&quot; ." />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="true" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.test_Book_Safaris.test_reserva_safari&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test.test_registrer_kort_password.test_tc_saf_022_neg_short_password" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Jurasstina-Kalle-Park" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.test_registrer_kort_password.test_tc_saf_022_neg_short_password&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_registrer_kort_password.py" type="tests" factoryName="Autodetect" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
+      <module name="Jurasstina-Kalle-Park" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="false" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_registrer_kort_password.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test_book_safari_fell_biljet" />
+      <item itemvalue="Python.test_Book_Safaris" />
+      <item itemvalue="Python tests.Python tests for test.test_Book_Safaris.test_reserva_safari" />
+      <item itemvalue="Python tests.Python tests for test.test_registrer_kort_password.test_tc_saf_022_neg_short_password" />
+      <item itemvalue="Python tests.Python tests in test_registrer_kort_password.py" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Robot.Webbtestning av Jurasstina-Kalle Park (1)" />
-        <item itemvalue="Robot.Webbtestning av Jurasstina-Kalle Park" />
-        <item itemvalue="Robot.Webbtestning av Jurasstina-Kalle Park (1)" />
-        <item itemvalue="Robot.Webbtestning av Jurasstina-Kalle Park" />
+        <item itemvalue="Python.test_book_safari_fell_biljet" />
+        <item itemvalue="Python tests.Python tests in test_registrer_kort_password.py" />
+        <item itemvalue="Python tests.Python tests for test.test_registrer_kort_password.test_tc_saf_022_neg_short_password" />
+        <item itemvalue="Python tests.Python tests for test.test_Book_Safaris.test_reserva_safari" />
+        <item itemvalue="Python.test_Book_Safaris" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.308" />
-        <option value="bundled-python-sdk-ca5e2b39c7df-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.308" />
+        <option value="bundled-python-sdk-3944b0c99280-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.30387.127" />
       </set>
     </attachedChunks>
   </component>
@@ -171,6 +235,12 @@
       <workItem from="1770039490782" duration="185000" />
       <workItem from="1770039689059" duration="942000" />
       <workItem from="1770040640140" duration="4351000" />
+      <workItem from="1770969451860" duration="11366000" />
+      <workItem from="1770981297546" duration="3971000" />
+      <workItem from="1770985386504" duration="1177000" />
+      <workItem from="1770986598939" duration="1638000" />
+      <workItem from="1770988758437" duration="2689000" />
+      <workItem from="1771144837542" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="Added initial file">
       <option name="closed" value="true" />
@@ -204,7 +274,119 @@
       <option name="project" value="LOCAL" />
       <updated>1770040849395</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update">
+      <option name="closed" value="true" />
+      <created>1770203192817</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770203192817</updated>
+    </task>
+    <task id="LOCAL-00006" summary="abrir reserva safari">
+      <option name="closed" value="true" />
+      <created>1770281225462</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770281225462</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test home commingsoon">
+      <option name="closed" value="true" />
+      <created>1770282635395</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1770282635395</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test home commingsoon">
+      <option name="closed" value="true" />
+      <created>1770286130419</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1770286130419</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test home commingsoon">
+      <option name="closed" value="true" />
+      <created>1770371337585</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1770371337585</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test home commingsoon">
+      <option name="closed" value="true" />
+      <created>1770375570472</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1770375570472</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test home commingsoon">
+      <option name="closed" value="true" />
+      <created>1770633661619</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1770633661621</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test home commingsoon">
+      <option name="closed" value="true" />
+      <created>1770634899611</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1770634899611</updated>
+    </task>
+    <task id="LOCAL-00013" summary="test home commingsoon">
+      <option name="closed" value="true" />
+      <created>1770635156674</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1770635156674</updated>
+    </task>
+    <task id="LOCAL-00014" summary="test home commingsoon">
+      <option name="closed" value="true" />
+      <created>1770712650695</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1770712650695</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Adderat testID och tag">
+      <option name="closed" value="true" />
+      <created>1770806911146</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1770806911146</updated>
+    </task>
+    <task id="LOCAL-00016" summary="problema con archivos">
+      <option name="closed" value="true" />
+      <created>1770974980500</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1770974980500</updated>
+    </task>
+    <task id="LOCAL-00017" summary="rename files">
+      <option name="closed" value="true" />
+      <created>1770975653042</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1770975653042</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Test komentarier">
+      <option name="closed" value="true" />
+      <created>1771146636777</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1771146636777</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +396,13 @@
     <MESSAGE value="Added initial file" />
     <MESSAGE value="Update 2" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="abrir reserva safari" />
+    <MESSAGE value="test home commingsoon" />
+    <MESSAGE value="Adderat testID och tag" />
+    <MESSAGE value="problema con archivos" />
+    <MESSAGE value="rename files" />
+    <MESSAGE value="Test komentarier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test komentarier" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -224,12 +412,30 @@
           <line>8</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_book_safari_fell_biljet.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Webbtestning_av_Jurasstina_Kalle_Park__1_.coverage" NAME="Webbtestning av Jurasstina-Kalle Park (1) Coverage Results" MODIFIED="1770123343863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$main.coverage" NAME="main Coverage Results" MODIFIED="1770037159008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Webbtestning_av_Jurasstina_Kalle_Park.coverage" NAME="Webbtestning av Jurasstina-Kalle Park Coverage Results" MODIFIED="1770039934036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$test_book_safari_fell_biljet.coverage" NAME="test_book_safari_fell_biljet Coverage Results" MODIFIED="1770997721609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Jurasic.coverage" NAME="Jurasic Coverage Results" MODIFIED="1770284944997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$test_Book_Safaris.coverage" NAME="test_Book_Safaris Coverage Results" MODIFIED="1770997693605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$test_register_password_too_short.coverage" NAME="test_register_password_too_short Coverage Results" MODIFIED="1770979899708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Kolla_book_safari_fell_biljet.coverage" NAME="Kolla_book_safari_fell_biljet Coverage Results" MODIFIED="1770973782079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Webbtestning_av_Jurasstina_Kalle_Park.coverage" NAME="Webbtestning av Jurasstina-Kalle Park Coverage Results" MODIFIED="1770279817671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$test_home_coming_soon.coverage" NAME="test_home_coming_soon Coverage Results" MODIFIED="1770997685450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$test_registrer_kort_password.coverage" NAME="test_registrer_kort_password Coverage Results" MODIFIED="1770997658546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$test_kopa_regular_biljet_vadagar.coverage" NAME="test_kopa_regular_biljet_vadagar Coverage Results" MODIFIED="1771143281739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$.coverage" NAME=" Coverage Results" MODIFIED="1770988896912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Webbtestning_av_Jurasstina_Kalle_Park__1_.coverage" NAME="Webbtestning av Jurasstina-Kalle Park (1) Coverage Results" MODIFIED="1770204170278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$kolla_Book_Safaris.coverage" NAME="kolla_Book_Safaris Coverage Results" MODIFIED="1770973799064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$main.coverage" NAME="main Coverage Results" MODIFIED="1770981328010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$registrer_kort_password.coverage" NAME="registrer_kort_password Coverage Results" MODIFIED="1770974922391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$home_coming_soon.coverage" NAME="home_coming_soon Coverage Results" MODIFIED="1770974828181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$kopa_regular_biljet_vadagar.coverage" NAME="kopa_regular_biljet_vadagar Coverage Results" MODIFIED="1770974560599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
 </project>

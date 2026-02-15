@@ -11,8 +11,19 @@ def run(playwright: Playwright) -> None:
     # Open web sidan frän lokal på datum.
     page.goto("http://127.0.0.1:8000/jurap.html")
 
-    #klicla på linken "Coming son"
-    page.get_by_role("link", name="Coming Soon!").click()
+    # Verifiera att sektionen/knappen syns
+    expect(page.get_by_text("Dine with Dinosaurs")).to_be_visible()
+    coming_soon = page.get_by_text("Coming Soon!", exact=True)
+    expect(coming_soon).to_be_visible()
+
+    # Spara URL innan klick
+    url_before = page.url
+
+    # Ingen navigering och vi är kvar på Home
+    expect(page).to_have_url(url_before)
+    expect(page.get_by_text("Welcome to Jurasstina-Kalle Park!")).to_be_visible()
+
+
 
 
     # ---------------------
