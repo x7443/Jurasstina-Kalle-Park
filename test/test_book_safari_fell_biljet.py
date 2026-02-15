@@ -2,7 +2,6 @@ import re
 
 import pytest
 from playwright.sync_api import Playwright, sync_playwright, expect
-
 #Test ID: TC-SAF-02.1-NEG
 
 @pytest.mark.VG_Javi
@@ -39,6 +38,7 @@ def run(playwright: Playwright) -> None:
     page.get_by_role("textbox", name="Select Safari Date:").fill("2026-12-19")
     page.get_by_role("button", name="Add to Cart").click()
 
+    #Felvalidering: systemet visar ett felmeddelande
     expect(page.get_by_text("VIP tickets required to book safaris on weekends.")).to_be_visible(timeout=5000)
 
 

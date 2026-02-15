@@ -2,7 +2,6 @@ import re
 
 import pytest
 from playwright.sync_api import Playwright, sync_playwright, expect
-
 #Test ID: TC-SAF-02.2-NEG
 
 @pytest.mark.VG_Javi
@@ -14,26 +13,22 @@ def run(playwright: Playwright) -> None:
     # Open web sidan frän lokal på datum.
     page.goto("http://127.0.0.1:8000/jurap.html")
 
-    # Klickar på "Register" för att öppna registreringsformuläret.
-    page.get_by_role("link", name="Register").click()
-
     # Skriva en användarnamn och en password med färre än 8 tecken och clicka Register.
+    page.get_by_role("link", name="Register").click()
     page.get_by_role("textbox", name="Username:").click()
-    page.get_by_role("textbox", name="Username:").fill("Javilon9")
+    page.get_by_role("textbox", name="Username:").fill("PacoJavi10")
     page.get_by_role("textbox", name="Password:").click()
     page.get_by_role("textbox", name="Password:").fill("Panta")
-
-    # Klickar på "Register".
     page.get_by_role("button", name="Register").click()
 
-    # Verifierar att ett varningsmeddelande visas om lösenordet är kortare än 8 tecken
-    expect(page.get_by_text("Password must be at least 8 characters long.")).to_be_visible()
+    #Felvalidering: systemet visar ett felmeddelande när lösenordet är ogiltigt (< 8 tecken)
+    expect(page.get_by_text("Password must be at least 8 characters long.")).to_be_visible(timeout=5000)
 
 
+    # ---------------------
     context.close()
     browser.close()
 
 
 with sync_playwright() as playwright:
     run(playwright)
-

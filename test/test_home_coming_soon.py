@@ -1,4 +1,5 @@
 import re
+
 from playwright.sync_api import Playwright, sync_playwright, expect
 #Test-ID: TC-COM-03-POS
 
@@ -6,7 +7,11 @@ def run(playwright: Playwright) -> None:
     browser = playwright.chromium.launch(headless=False)
     context = browser.new_context()
     page = context.new_page()
+
+    # Open web sidan frän lokal på datum.
     page.goto("http://127.0.0.1:8000/jurap.html")
+
+    #klicla på linken "Coming son"
     page.get_by_role("link", name="Coming Soon!").click()
 
 
