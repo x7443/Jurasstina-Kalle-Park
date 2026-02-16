@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.1 (Python 3.14.2 on win32)" generated="2026-02-03T11:24:37.263936" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.1 (Python 3.14.2 on win32)" generated="2026-02-03T11:26:31.056487" rpa="false" schemaversion="5">
 <suite id="s1" name="Jurasstina-Kalle-Park" source="C:\Users\diego\PycharmProjects\Jurasstina-Kalle-Park">
 <suite id="s1-s1" name="Test" source="C:\Users\diego\PycharmProjects\Jurasstina-Kalle-Park\test">
 <suite id="s1-s1-s1" name="Jurasic" source="C:\Users\diego\PycharmProjects\Jurasstina-Kalle-Park\test\Jurasic.robot">
 <test id="s1-s1-s1-t1" name="Webbtestning av Jurasstina-Kalle Park" line="8">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2026-02-03T11:24:37.563233" level="INFO">Opening browser 'chrome' to base url 'http://127.0.0.1:8000/jurap.html'.</msg>
+<msg time="2026-02-03T11:26:31.346670" level="INFO">Opening browser 'chrome' to base url 'http://127.0.0.1:8000/jurap.html'.</msg>
 <arg>http://127.0.0.1:8000/jurap.html</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-02-03T11:24:37.562881" elapsed="1.760162"/>
+<status status="PASS" start="2026-02-03T11:26:31.346287" elapsed="1.807102"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-02-03T11:24:44.331040" level="INFO">Slept 5 seconds.</msg>
+<msg time="2026-02-03T11:26:38.157956" level="INFO">Slept 5 seconds.</msg>
 <arg>5s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-02-03T11:24:39.329516" elapsed="5.001799"/>
+<status status="PASS" start="2026-02-03T11:26:33.156077" elapsed="5.002062"/>
 </kw>
-<status status="PASS" start="2026-02-03T11:24:37.560738" elapsed="6.771643"/>
+<status status="PASS" start="2026-02-03T11:26:31.344573" elapsed="6.814639"/>
 </test>
 <doc>Tests para Jurasstina-Kalle Park</doc>
-<status status="PASS" start="2026-02-03T11:24:37.318446" elapsed="7.017037"/>
+<status status="PASS" start="2026-02-03T11:26:31.110933" elapsed="7.050841"/>
 </suite>
-<status status="PASS" start="2026-02-03T11:24:37.316677" elapsed="7.022376"/>
+<status status="PASS" start="2026-02-03T11:26:31.109084" elapsed="7.054683"/>
 </suite>
-<status status="PASS" start="2026-02-03T11:24:37.266175" elapsed="7.075886"/>
+<status status="PASS" start="2026-02-03T11:26:31.058854" elapsed="7.107195"/>
 </suite>
 <statistics>
 <total>
