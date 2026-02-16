@@ -4,7 +4,7 @@ from playwright.sync_api import Playwright, sync_playwright, expect
 
 def run(playwright: Playwright) -> None:
 
-    browser = playwright.chromium.launch(headless=False)
+    browser = playwright.chromium.launch(headless=False, slow_mo=700)
     context = browser.new_context()
     page = context.new_page()
 
@@ -26,8 +26,8 @@ def run(playwright: Playwright) -> None:
 
     #Användaren tas till "Login" sidan automatiskt när de klickar på "OK" knappen i dialogen
 
-    #Användaren klickar på "Register" knappen längst upp i sidan
-    #Tas vidare till "Register" sidan och registrerar sig (med de angivna uppgifterna)
+    #Användaren klickar på "Register" knappen längst upp i sidan och
+    #tas vidare till "Register" sidan och registrerar sig (med de angivna uppgifterna)
     username = "CuloConCaca"
     password = "CacaConCulo"
 
