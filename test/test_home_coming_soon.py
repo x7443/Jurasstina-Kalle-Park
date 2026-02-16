@@ -4,7 +4,7 @@ from playwright.sync_api import Playwright, sync_playwright, expect
 #Test-ID: TC-COM-03-POS
 
 def run(playwright: Playwright) -> None:
-    browser = playwright.chromium.launch(headless=False)
+    browser = playwright.chromium.launch(headless=False, slow_mo=700)
     context = browser.new_context()
     page = context.new_page()
 
@@ -15,6 +15,8 @@ def run(playwright: Playwright) -> None:
     expect(page.get_by_text("Dine with Dinosaurs")).to_be_visible()
     coming_soon = page.get_by_text("Coming Soon!", exact=True)
     expect(coming_soon).to_be_visible()
+
+    page.get_by_text("Coming Soon!").click()
 
     # Spara URL innan klick
     url_before = page.url

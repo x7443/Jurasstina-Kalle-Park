@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a538433e-4edf-49ea-b99b-638adac9889e" name="Changes" comment="Test komentarier">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a538433e-4edf-49ea-b99b-638adac9889e" name="Changes" comment="fix" />
     <list id="63eebbc9-1c7f-4095-a8fc-cb68c0d99761" name="Changes by Javier" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -382,7 +380,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771146636777</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fix">
+      <option name="closed" value="true" />
+      <created>1771238287293</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1771238287293</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +404,8 @@
     <MESSAGE value="problema con archivos" />
     <MESSAGE value="rename files" />
     <MESSAGE value="Test komentarier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test komentarier" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
