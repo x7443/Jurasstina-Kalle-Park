@@ -1,13 +1,17 @@
 import re
 
 import pytest
-from playwright.sync_api import Page, expect
+from playwright.sync_api import Playwright, sync_playwright, expect
+
 
 
 # Test ID: TC-SAF-02.1-NEG
 
 @pytest.mark.VG_Javi
-def test_book_safari_fell_biljet(page: Page) -> None:
+def run(playwright: Playwright) -> None:
+    browser = playwright.chromium.launch(headless=False)
+    context = browser.new_context()
+    page = context.new_page()
     # Öppna webbsidan från lokal server
     page.goto("http://127.0.0.1:8000/jurap.html")
 

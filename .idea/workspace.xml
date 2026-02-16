@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a538433e-4edf-49ea-b99b-638adac9889e" name="Changes" comment="Test komentarier">
-      <change beforePath="$PROJECT_DIR$/.idea/Jurasstina-Kalle-Park.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Jurasstina-Kalle-Park.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_book_safari_fell_biljet.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_book_safari_fell_biljet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_home_coming_soon.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_home_coming_soon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_registrer_kort_password.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_registrer_kort_password.py" afterDir="false" />
     </list>
     <list id="63eebbc9-1c7f-4095-a8fc-cb68c0d99761" name="Changes by Javier" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Almedin" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -414,8 +410,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test/test_book_safari_fell_biljet.py</url>
-          <line>22</line>
+          <line>27</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_home_coming_soon.py</url>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
