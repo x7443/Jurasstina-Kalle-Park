@@ -1,10 +1,11 @@
 import re
+from time import sleep
 
 from playwright.sync_api import Playwright, sync_playwright, expect
 #Test-ID: TC-SAF-02-POS
 
 def run(playwright: Playwright) -> None:
-    browser = playwright.chromium.launch(headless=False)
+    browser = playwright.chromium.launch(headless=False, slow_mo=500)
     context = browser.new_context()
     page = context.new_page()
 
@@ -26,20 +27,23 @@ def run(playwright: Playwright) -> None:
     page.get_by_role("textbox", name="Password:").click()
     page.get_by_role("textbox", name="Password:").fill("965312396")
     page.get_by_role("button", name="Login").click()
+    expect(page.get_by_text("Welcome to Jurasstina-Kalle Park!")).to_be_visible()
 
     # Väljer en Vip-biljett för att köpa den och lägga till den i varukorgen.
-    page.get_by_role("link", name="Buy Tickets").click()
     page.get_by_role("link", name="Buy Tickets", exact=True).click()
     page.get_by_label("Ticket Category:").select_option("VIP")
-    page.once("dialog", lambda dialog: dialog.dismiss())
+
     page.get_by_role("button", name="Add to Cart").click()
+
 
     # Väljer en Safari och ett datum på helgen.
     page.get_by_role("link", name="Book Safaris").click()
     page.get_by_role("textbox", name="Select Safari Date:").fill("2026-12-19")
     page.get_by_label("Select Safari Type:").select_option("T-Rex Rumble")
-    page.once("dialog", lambda dialog: dialog.dismiss())
     page.get_by_role("button", name="Add to Cart").click()
+
+    page.get_by_role("link", name="Cart").click()
+    expect(page.get_by_text("T-Rex Rumble on 2026-12-19")).to_be_visible()
 
     # ---------------------
     context.close()
