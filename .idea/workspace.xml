@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a538433e-4edf-49ea-b99b-638adac9889e" name="Changes" comment="Test komentarier">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_book_safari_fell_biljet.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_book_safari_fell_biljet.py" afterDir="false" />
     </list>
     <list id="63eebbc9-1c7f-4095-a8fc-cb68c0d99761" name="Changes by Javier" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +95,7 @@
       <recent name="C:\Users\diego\PycharmProjects\Jurasstina-Kalle-Park" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_book_safari_fell_biljet">
+  <component name="RunManager">
     <configuration name="test_Book_Safaris" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Jurasstina-Kalle-Park" />
       <option name="ENV_FILES" value="" />
@@ -205,11 +204,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_book_safari_fell_biljet" />
         <item itemvalue="Python tests.Python tests in test_registrer_kort_password.py" />
         <item itemvalue="Python tests.Python tests for test.test_registrer_kort_password.test_tc_saf_022_neg_short_password" />
         <item itemvalue="Python tests.Python tests for test.test_Book_Safaris.test_reserva_safari" />
         <item itemvalue="Python.test_Book_Safaris" />
+        <item itemvalue="Python.test_book_safari_fell_biljet" />
       </list>
     </recent_temporary>
   </component>
