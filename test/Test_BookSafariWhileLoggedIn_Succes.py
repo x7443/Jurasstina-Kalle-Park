@@ -4,7 +4,7 @@ from playwright.sync_api import Playwright, sync_playwright, expect
 #Test-ID: TC-BOOK-10-POS
 def run(playwright: Playwright) -> None:
 
-    browser = playwright.chromium.launch(headless=False, slow_mo=2000)
+    browser = playwright.chromium.launch(headless=False, slow_mo=700)
     context = browser.new_context()
     page = context.new_page()
     page.goto("http://127.0.0.1:8000/jurap.html")

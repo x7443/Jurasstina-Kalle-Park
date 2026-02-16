@@ -3,7 +3,7 @@ from playwright.sync_api import Playwright, sync_playwright, expect
 
 # Test-ID: TC-MAP-15-POS
 def run(playwright: Playwright) -> None:
-    browser = playwright.chromium.launch(headless=False)
+    browser = playwright.chromium.launch(headless=False, slow_mo=700)
     context = browser.new_context()
     page = context.new_page()
     page.goto("http://127.0.0.1:8000/jurap.html")

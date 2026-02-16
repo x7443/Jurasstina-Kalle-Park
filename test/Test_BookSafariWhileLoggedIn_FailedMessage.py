@@ -8,7 +8,7 @@ from playwright.sync_api import Playwright, sync_playwright, expect
 def run(playwright: Playwright) -> None:
 
     #Jag fattar inte varför tester går igenom med slow mo = 2000 och inte när man kör det utan slow_mo=
-    browser = playwright.chromium.launch(headless=False, slow_mo= 2000)
+    browser = playwright.chromium.launch(headless=False, slow_mo=700)
     context = browser.new_context()
     page = context.new_page()
     page.goto("http://127.0.0.1:8000/jurap.html")
