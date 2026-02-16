@@ -1,11 +1,13 @@
 import asyncio
 import re
+from time import sleep
+
 from playwright.sync_api import Playwright, sync_playwright, expect
 
 
 def run(playwright: Playwright) -> None:
 
-    browser =  playwright.chromium.launch(headless=False)
+    browser =  playwright.chromium.launch(headless=False, slow_mo=700)
     context =  browser.new_context()
     page =  context.new_page()
 
@@ -28,7 +30,7 @@ def run(playwright: Playwright) -> None:
     #Kollar så att "Register" knappen är gömd (för att säkerhetsställa att användaren är inloggad)
     expect(page.get_by_role("button", name="Register")).to_be_hidden()
 
-
+    sleep(5)
     ###HÄR BÖRJAR TESTET###
 
     #Användaren klickar på "Login"
