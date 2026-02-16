@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a538433e-4edf-49ea-b99b-638adac9889e" name="Changes" comment="La till python fil för playwright">
+    <list default="true" id="a538433e-4edf-49ea-b99b-638adac9889e" name="Changes" comment="Test-ID inlagt för samtliga testfiler&#10;Tags inlagt för negativa testfiler">
+      <change afterPath="$PROJECT_DIR$/test/Test_BookSafari_PassedDate_WhileLoggedIn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Test_DinoAlerts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Test_Parkmap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Jurasic.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/Jurasic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Test_BookSafari_Weekens_WhileLoggedIn_VIPtickets_Success.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/Test_BookSafari_Weekens_WhileLoggedIn_VIPtickets_Success.py" afterDir="false" />
     </list>
     <list id="63eebbc9-1c7f-4095-a8fc-cb68c0d99761" name="Changes by Javier" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Robot Feature File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -38,9 +39,12 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/x7443/Jurasstina-Kalle-Park.git&quot;,
-    &quot;accountId&quot;: &quot;10012004-c17f-421d-a617-aea8b8c0b8e5&quot;
+    &quot;accountId&quot;: &quot;9c7cf57c-e28c-4333-becf-67bf90f8cc81&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/test/Register.robot" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -52,26 +56,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Jurasic.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Robot.Webbtestning av Jurasstina-Kalle Park (1).executor&quot;: &quot;Run&quot;,
-    &quot;Robot.Webbtestning av Jurasstina-Kalle Park.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/diego/PycharmProjects/Jurasstina-Kalle-Park&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Test_BookSafariWhileLoggedIn_FailedMessage.executor": "Run",
+    "Python.Test_BookSafariWhileLoggedIn_Succes.executor": "Run",
+    "Python.Test_BookSafari_PassedDate_WhileLoggedIn.executor": "Run",
+    "Python.Test_BookSafari_Weekend_WhileLoggedIn_RegularTickets_FailedMessage.executor": "Run",
+    "Python.Test_BookSafari_Weekens_WhileLoggedIn_VIPtickets_Success.executor": "Run",
+    "Python.Test_DinoAlerts.executor": "Run",
+    "Python.Test_Parkmap.executor": "Run",
+    "Python.Test_Register_UsernameAlreadyExists.executor": "Run",
+    "Python.Test_WrongUsername.executor": "Run",
+    "Python.Test_WrongpPassword.executor": "Run",
+    "Python.main.executor": "Run",
+    "Robot.Register an account.executor": "Run",
+    "Robot.Webbtestning av Jurasstina-Kalle Park (1).executor": "Run",
+    "Robot.Webbtestning av Jurasstina-Kalle Park.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "git-widget-placeholder": "Almedin",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/diego/PycharmProjects/Jurasstina-Kalle-Park",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\diego\PycharmProjects\Jurasstina-Kalle-Park\test" />
@@ -79,7 +93,7 @@
       <recent name="C:\Users\diego\PycharmProjects\Jurasstina-Kalle-Park" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Jurasstina-Kalle-Park" />
       <option name="ENV_FILES" value="" />
@@ -100,6 +114,31 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Register an account" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.14 (PyCharmMiscProject)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="robot.run" />
+      <option name="PARAMETERS" value="--test &quot;Jurasstina-Kalle-Park.test.Register.Register an account&quot; ." />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="true" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
@@ -154,18 +193,17 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Robot.Webbtestning av Jurasstina-Kalle Park (1)" />
         <item itemvalue="Robot.Webbtestning av Jurasstina-Kalle Park" />
+        <item itemvalue="Robot.Register an account" />
         <item itemvalue="Robot.Webbtestning av Jurasstina-Kalle Park (1)" />
-        <item itemvalue="Robot.Webbtestning av Jurasstina-Kalle Park" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.308" />
-        <option value="bundled-python-sdk-ca5e2b39c7df-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.308" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.30387.173" />
+        <option value="bundled-python-sdk-4762d8aabb82-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.30387.173" />
       </set>
     </attachedChunks>
   </component>
@@ -180,7 +218,19 @@
       <workItem from="1770038405123" duration="1061000" />
       <workItem from="1770039490782" duration="185000" />
       <workItem from="1770039689059" duration="942000" />
-      <workItem from="1770040640140" duration="5069000" />
+      <workItem from="1770040640140" duration="4351000" />
+      <workItem from="1770635570246" duration="46000" />
+      <workItem from="1770635645085" duration="1184000" />
+      <workItem from="1770636943039" duration="251000" />
+      <workItem from="1770637213684" duration="335000" />
+      <workItem from="1770637566887" duration="1124000" />
+      <workItem from="1770645453793" duration="1169000" />
+      <workItem from="1770646651163" duration="410000" />
+      <workItem from="1770647087033" duration="482000" />
+      <workItem from="1770647600005" duration="666000" />
+      <workItem from="1770731767471" duration="1133000" />
+      <workItem from="1770734762997" duration="1001000" />
+      <workItem from="1770797022033" duration="41393000" />
     </task>
     <task id="LOCAL-00001" summary="Added initial file">
       <option name="closed" value="true" />
@@ -214,37 +264,79 @@
       <option name="project" value="LOCAL" />
       <updated>1770040849395</updated>
     </task>
-    <task id="LOCAL-00005" summary="La till python fil för playwright">
+    <task id="LOCAL−00005" summary="Update">
       <option name="closed" value="true" />
-      <created>1770114336766</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1770114336766</updated>
+      <created>1770374487512</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1770374487512</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Testar två konton med samma namn">
+      <option name="closed" value="true" />
+      <created>1770805749474</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1770805749474</updated>
+    </task>
+    <task id="LOCAL−00007" summary="Text med förklaring av vilka steg tester gör samt @tag tillagd">
+      <option name="closed" value="true" />
+      <created>1770811164870</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1770811164870</updated>
+    </task>
+    <task id="LOCAL−00008" summary="Text med förklaring av vilka steg tester gör samt @tag tillagd">
+      <option name="closed" value="true" />
+      <created>1770811313155</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1770811313155</updated>
+    </task>
+    <task id="LOCAL−00009" summary="Test_Login raderad&#10;Lagt till scenario 8 (WrongPassword.py)&#10;Lagt till checks på UsernameAlreadyExists.py">
+      <option name="closed" value="true" />
+      <created>1770817334633</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1770817334633</updated>
+    </task>
+    <task id="LOCAL−00010" summary="Två tester färdiga; 1. När man är inloggad och misslyckas boka safari. 2. När man är inloggad, bokar biljetter och lyckas boka safari. Villkoret för att lyckas är att man behöver ha lagt till biljetter. För någon anledning går testet igenom om jag jag har kodsnutten slow_mo= 2000. Ifall jag inte har det så misslyckas testet, eller ifall värdet i slow_mo är för lågt.">
+      <option name="closed" value="true" />
+      <created>1770904728871</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1770904728871</updated>
+    </task>
+    <task id="LOCAL−00011" summary="Två till tester färdiga då man försöker boka under en heldag; Scenario 11 och 12. För någon anledning går testet igenom om jag jag har kodsnutten slow_mo= 2000. Ifall jag inte har det så misslyckas testet, eller ifall värdet i slow_mo är för lågt.">
+      <option name="closed" value="true" />
+      <created>1770912258494</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1770912258494</updated>
+    </task>
+    <task id="LOCAL−00012" summary="Test-ID inlagt för samtliga testfiler&#10;Tags inlagt för negativa testfiler">
+      <option name="closed" value="true" />
+      <created>1770980880677</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1770980880677</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added initial file" />
     <MESSAGE value="Update 2" />
     <MESSAGE value="Update" />
-    <MESSAGE value="La till python fil för playwright" />
-    <option name="LAST_COMMIT_MESSAGE" value="La till python fil för playwright" />
+    <MESSAGE value="Testar två konton med samma namn" />
+    <MESSAGE value="Text med förklaring av vilka steg tester gör samt @tag tillagd" />
+    <MESSAGE value="Test_Login raderad&#10;Lagt till scenario 8 (WrongPassword.py)&#10;Lagt till checks på UsernameAlreadyExists.py" />
+    <MESSAGE value="Två tester färdiga; 1. När man är inloggad och misslyckas boka safari. 2. När man är inloggad, bokar biljetter och lyckas boka safari. Villkoret för att lyckas är att man behöver ha lagt till biljetter. För någon anledning går testet igenom om jag jag har kodsnutten slow_mo= 2000. Ifall jag inte har det så misslyckas testet, eller ifall värdet i slow_mo är för lågt." />
+    <MESSAGE value="Två till tester färdiga då man försöker boka under en heldag; Scenario 11 och 12. För någon anledning går testet igenom om jag jag har kodsnutten slow_mo= 2000. Ifall jag inte har det så misslyckas testet, eller ifall värdet i slow_mo är för lågt." />
+    <MESSAGE value="Test-ID inlagt för samtliga testfiler&#10;Tags inlagt för negativa testfiler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test-ID inlagt för samtliga testfiler&#10;Tags inlagt för negativa testfiler" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -258,9 +350,19 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Webbtestning_av_Jurasstina_Kalle_Park__1_.coverage" NAME="Webbtestning av Jurasstina-Kalle Park (1) Coverage Results" MODIFIED="1770114390415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$main.coverage" NAME="main Coverage Results" MODIFIED="1770037159008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Webbtestning_av_Jurasstina_Kalle_Park.coverage" NAME="Webbtestning av Jurasstina-Kalle Park Coverage Results" MODIFIED="1770039934036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Jurasic.coverage" NAME="Jurasic Coverage Results" MODIFIED="1770114409447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Test_Parkmap.coverage" NAME="Test_Parkmap Coverage Results" MODIFIED="1770989672354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Test_BookSafariWhileLoggedIn_FailedMessage.coverage" NAME="Test_BookSafariWhileLoggedIn_FailedMessage Coverage Results" MODIFIED="1770980939801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Test_BookSafariWhileLoggedIn_Succes.coverage" NAME="Test_BookSafariWhileLoggedIn_Succes Coverage Results" MODIFIED="1770980983158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$main.coverage" NAME="main Coverage Results" MODIFIED="1770037159008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Test_WrongpPassword.coverage" NAME="Test_WrongpPassword Coverage Results" MODIFIED="1770980908284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Test_Register_UsernameAlreadyExists.coverage" NAME="Test_Register_UsernameAlreadyExists Coverage Results" MODIFIED="1770980892234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Test_DinoAlerts.coverage" NAME="Test_DinoAlerts Coverage Results" MODIFIED="1770986078446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Test_BookSafari_Weekend_WhileLoggedIn_RegularTickets_FailedMessage.coverage" NAME="Test_BookSafari_Weekend_WhileLoggedIn_RegularTickets_FailedMessage Coverage Results" MODIFIED="1770981044478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Register_an_account.coverage" NAME="Register an account Coverage Results" MODIFIED="1770641266339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Webbtestning_av_Jurasstina_Kalle_Park__1_.coverage" NAME="Webbtestning av Jurasstina-Kalle Park (1) Coverage Results" MODIFIED="1770113328315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Test_BookSafari_PassedDate_WhileLoggedIn.coverage" NAME="Test_BookSafari_PassedDate_WhileLoggedIn Coverage Results" MODIFIED="1770983193582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Test_WrongUsername.coverage" NAME="Test_WrongUsername Coverage Results" MODIFIED="1770816118656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Jurasstina_Kalle_Park$Test_BookSafari_Weekens_WhileLoggedIn_VIPtickets_Success.coverage" NAME="Test_BookSafari_Weekens_WhileLoggedIn_VIPtickets_Success Coverage Results" MODIFIED="1770981108758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
 </project>

@@ -1,30 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.1 (Python 3.14.2 on win32)" generated="2026-02-03T11:26:31.056487" rpa="false" schemaversion="5">
-<suite id="s1" name="Jurasstina-Kalle-Park" source="C:\Users\diego\PycharmProjects\Jurasstina-Kalle-Park">
-<suite id="s1-s1" name="Test" source="C:\Users\diego\PycharmProjects\Jurasstina-Kalle-Park\test">
-<suite id="s1-s1-s1" name="Jurasic" source="C:\Users\diego\PycharmProjects\Jurasstina-Kalle-Park\test\Jurasic.robot">
-<test id="s1-s1-s1-t1" name="Webbtestning av Jurasstina-Kalle Park" line="8">
+<robot generator="Robot 7.4.1 (Python 3.14.2 on win32)" generated="2026-02-09T13:47:48.022973" rpa="false" schemaversion="5">
+<suite id="s1" name="Jurasstina-Kalle-Park" source="C:\Users\ElevAB\PycharmProjects\Jurasstina-Kalle-Park">
+<suite id="s1-s1" name="Test" source="C:\Users\ElevAB\PycharmProjects\Jurasstina-Kalle-Park\test">
+<suite id="s1-s1-s1" name="Register" source="C:\Users\ElevAB\PycharmProjects\Jurasstina-Kalle-Park\test\Register.robot">
+<test id="s1-s1-s1-t1" name="Register an account" line="6">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2026-02-03T11:26:31.346670" level="INFO">Opening browser 'chrome' to base url 'http://127.0.0.1:8000/jurap.html'.</msg>
+<msg time="2026-02-09T13:47:48.804947" level="INFO">Opening browser 'Chrome' to base url 'http://127.0.0.1:8000/jurap.html'.</msg>
 <arg>http://127.0.0.1:8000/jurap.html</arg>
-<arg>chrome</arg>
+<arg>Chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-02-03T11:26:31.346287" elapsed="1.807102"/>
+<status status="PASS" start="2026-02-09T13:47:48.804158" elapsed="3.593982"/>
 </kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2026-02-03T11:26:38.157956" level="INFO">Slept 5 seconds.</msg>
-<arg>5s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-02-03T11:26:33.156077" elapsed="5.002062"/>
-</kw>
-<status status="PASS" start="2026-02-03T11:26:31.344573" elapsed="6.814639"/>
+<status status="PASS" start="2026-02-09T13:47:48.801028" elapsed="3.598246"/>
 </test>
-<doc>Tests para Jurasstina-Kalle Park</doc>
-<status status="PASS" start="2026-02-03T11:26:31.110933" elapsed="7.050841"/>
+<doc>This suite is for testing the registration on Jurasstina-KallePark</doc>
+<status status="PASS" start="2026-02-09T13:47:48.182004" elapsed="4.224151"/>
 </suite>
-<status status="PASS" start="2026-02-03T11:26:31.109084" elapsed="7.054683"/>
+<status status="PASS" start="2026-02-09T13:47:48.175981" elapsed="4.234381"/>
 </suite>
-<status status="PASS" start="2026-02-03T11:26:31.058854" elapsed="7.107195"/>
+<status status="PASS" start="2026-02-09T13:47:48.027902" elapsed="4.398043"/>
 </suite>
 <statistics>
 <total>
@@ -35,7 +29,7 @@
 <suite>
 <stat name="Jurasstina-Kalle-Park" id="s1" pass="1" fail="0" skip="0">Jurasstina-Kalle-Park</stat>
 <stat name="Test" id="s1-s1" pass="1" fail="0" skip="0">Jurasstina-Kalle-Park.Test</stat>
-<stat name="Jurasic" id="s1-s1-s1" pass="1" fail="0" skip="0">Jurasstina-Kalle-Park.Test.Jurasic</stat>
+<stat name="Register" id="s1-s1-s1" pass="1" fail="0" skip="0">Jurasstina-Kalle-Park.Test.Register</stat>
 </suite>
 </statistics>
 <errors>
